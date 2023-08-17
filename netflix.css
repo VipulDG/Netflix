@@ -1,0 +1,266 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./images/netflixhome.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 11px 170px;
+   color: red;
+}
+
+#navbar #left h1{
+    margin: 0px;
+  font-size: 40px;
+  font-weight: 900;   
+}
+
+#navbar #right ul{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     list-style-type: none;
+     margin: 0px;
+}
+
+
+#b1{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 130px;
+    height: 38px;
+    font-size: 16px;
+}
+
+#b2{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+#body {
+    text-align: center;
+    margin: top 300px;
+    color: white;
+    margin-top: 211px;
+    margin-bottom: 190px;
+}
+
+#body h1{
+    font-size: 56px;
+    margin-bottom: 0px;
+    font-weight: 850;
+}
+
+#body p{
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+
+#body button{
+
+    color: white;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: red;
+
+}
+
+#body input{
+
+    color: white;
+    border-radius: 5px;
+    width: 380px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+
+
+
+#enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    }
+
+#enjoy div{
+    width: 45%;
+}
+#left h1{
+font-size: 48px;
+}
+
+#left p{
+    font-size: 24px;
+}
+
+#right{
+    position: relative;
+}
+
+#right img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#right video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+    
+}
+
+#cont{
+    background-color: black ;
+    border-top: 10px solid #232323;
+}
+
+#download{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+#download div{
+    width: 45%;
+}
+
+#right2 h1{
+    font-size: 45px;
+}
+
+#right2 p{
+    font-size: 25px;
+}
+
+#cont2{
+    background-color: black;
+    border-top: 10px solid  #232323;  
+}
+
+#watch{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+}
+
+#watch div{
+    width: 45%;
+}
+
+#left3 h1{
+    font-size: 55px;
+}
+
+#left3 p{
+    font-size: 25px;
+}
+
+#right3{
+    position: relative;
+}
+
+#right3 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#right3 video{
+position: absolute;
+    top: 12%;
+    left: 19%;
+    width: 62%;
+    z-index: 1;
+}
+   
+#cont3{
+    background-color: black;
+    border-top: 10px solid  #232323;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======mobile====== */
+
+@media(max-width:600px){
+
+    #enjoy{
+      width: 95%;
+        margin: auto;
+       flex-direction: column;
+    }
+
+    #enjoy div{
+        width: 100%;
+        text-align: center;
+    }
+
+    #left h1{
+        font-size: 30px;
+    }
+
+    #left p{
+        font-size: 20px;
+    }
+   
+}
+
+
+
